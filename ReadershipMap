@@ -1,0 +1,30 @@
+<div data-height="400" data-width="100%" id="rdr-embed" style="width=100%; max-width:666px; border=0;">&nbsp;</div>
+<script> 
+   window.rdrAsync = function() { 
+     RDR.init({ 
+       mapContext: "4384390", 
+       datastreamHost: "datastream.bepress.com", 
+       datastreamPort: "443", 
+       datastreamStaticRoot: "//assets.bepress.com/current/", 
+       colorCode: "custom", 
+       customColor: "", 
+       customSaturation: "0", 
+       customLightness: "0", 
+       institution_title: "Swarthmore College", 
+       site_title: "Works",  
+       site_link: "http://works.swarthmore.edu", 
+       instCountryCode: "us", 
+       instCity: "Swarthmore", 
+       instRegion: "Pennsylvania", 
+       instCountry: "United States", 
+       origin: "http://your_site_here.com/", 
+       refreshRate: 3600000, 
+       homepageMap: 1, 
+       publicationMap: 0,  
+       embedMap: 1, 
+       zoom: 1, 
+       minZoom: 1, 
+       stats_host: "https://resources.bepress.com", 
+     }); 
+   }; 
+ </script><script src="https://assets.bepress.com/current/shared/embed/rdr.js" async="true"></script>
